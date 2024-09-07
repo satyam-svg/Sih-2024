@@ -1,0 +1,33 @@
+.main-screen{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.main-screen h1{
+    font-weight: 200;
+    color: gray;
+    margin-left: 0.6rem;
+}
+
+header{
+     display: flex;
+     flex-direction: column;
+     gap: 2rem;
+}
+
+header h2{
+    font-size: 3rem;
+    width: 40vw;
+}
+
+.line {
+    border-left: 2px solid gray;
+    height: 0; /* Initial height */
+    margin-left: 2rem;
+    transition: height 1s ease-out; /* Adjust duration and easing function as needed */
+  }
+  
+  .line.animate {
+    height: 25vh; /* Final height */
+  }
