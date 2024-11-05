@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Message Scheduler",
+  "version": "1.0",
+  "description": "A simple extension to schedule and send messages.",
+  "permissions": [
+    "storage",
+    "alarms",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "http://localhost/*"
+  ]
+}
